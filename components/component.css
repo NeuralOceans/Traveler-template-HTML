@@ -1,0 +1,14 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-text {
+  color: #c8f3df;
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 991px) {
+  .component-text {
+    text-align: center;
+  }
+}
